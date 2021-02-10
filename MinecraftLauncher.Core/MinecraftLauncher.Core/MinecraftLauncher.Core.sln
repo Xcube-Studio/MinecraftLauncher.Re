@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftLauncher.Core.Authenticator", "MinecraftLauncher.Core.Authenticator\MinecraftLauncher.Core.Authenticator.csproj", "{1BC8B465-34A9-4B9B-B480-AAF8915E7B45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftLauncher.Core.Standard", "MinecraftLauncher.Core.Standard\MinecraftLauncher.Core.Standard.csproj", "{B2D11A44-9310-4445-A4CC-DC6B2D3E01C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftLauncher.Core", "MinecraftLauncher.Core\MinecraftLauncher.Core.csproj", "{D6B710BE-663C-4AD7-A22C-6EB799E4FE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftLauncher.Core.ConsoleApp", "MinecraftLauncher.Core.ConsoleApp\MinecraftLauncher.Core.ConsoleApp.csproj", "{6A57B127-D163-4D95-B8D4-3BCA54A114AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC8B465-34A9-4B9B-B480-AAF8915E7B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC8B465-34A9-4B9B-B480-AAF8915E7B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC8B465-34A9-4B9B-B480-AAF8915E7B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC8B465-34A9-4B9B-B480-AAF8915E7B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D11A44-9310-4445-A4CC-DC6B2D3E01C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D11A44-9310-4445-A4CC-DC6B2D3E01C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D11A44-9310-4445-A4CC-DC6B2D3E01C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D11A44-9310-4445-A4CC-DC6B2D3E01C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B710BE-663C-4AD7-A22C-6EB799E4FE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B710BE-663C-4AD7-A22C-6EB799E4FE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B710BE-663C-4AD7-A22C-6EB799E4FE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B710BE-663C-4AD7-A22C-6EB799E4FE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A57B127-D163-4D95-B8D4-3BCA54A114AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A57B127-D163-4D95-B8D4-3BCA54A114AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A57B127-D163-4D95-B8D4-3BCA54A114AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A57B127-D163-4D95-B8D4-3BCA54A114AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0FBED19-ABA0-45E4-875B-6361BCA3574F}
+	EndGlobalSection
+EndGlobal

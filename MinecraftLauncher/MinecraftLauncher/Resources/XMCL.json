@@ -1,0 +1,43 @@
+{
+  "Files": {
+    "GamePathName": "",
+    "VersionSeparate": false,
+    "JavaPath": "",
+    "CompleteResource": true,
+    "DownloadSource": "Mcbbs",
+    "GamePaths": [ ]
+  },
+  "JVM": {
+    "MoreValueEnabled": true,
+    "Value": " -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow  -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true ",
+    "Memory": "1024",
+    "AutoMemory": false
+  },
+  "Login": {
+    "ClientToken": "",
+    "Choose": "",
+    "Users": [
+      
+    ]
+  },
+  "Video": {
+    "Width": "854",
+    "Height": "480",
+    "IsFullScreen": false
+  },
+  "Individualization": {
+    "PrimaryHueMidBrush": "#2196f3",
+    "PrimaryHueLightBrush": "#6ec6ff",
+    "PrimaryHueDarkBrush": "#0069c0",
+    "UseSystemTheme": false,
+    "Background": "",
+    "BackgroundPlus": false,
+    "AutoHideLaucher": true,
+    "AcrylicCard": false
+  },
+  "Game": {
+    "Demo": false,
+    "ServerIP": "",
+    "LatestVerison": ""
+  }
+}

@@ -1,0 +1,8 @@
+E:\MinecraftLauncher.Core\MinecraftLauncher.Core\MinecraftLauncher.Core.Standard\bin\Debug\MinecraftLauncher.Core.Standard.dll
+E:\MinecraftLauncher.Core\MinecraftLauncher.Core\MinecraftLauncher.Core.Standard\bin\Debug\MinecraftLauncher.Core.Standard.pdb
+E:\MinecraftLauncher.Core\MinecraftLauncher.Core\MinecraftLauncher.Core.Standard\bin\Debug\Newtonsoft.Json.dll
+E:\MinecraftLauncher.Core\MinecraftLauncher.Core\MinecraftLauncher.Core.Standard\bin\Debug\Newtonsoft.Json.xml
+E:\MinecraftLauncher.Core\MinecraftLauncher.Core\MinecraftLauncher.Core.Standard\obj\Debug\MinecraftLauncher.Core.Standard.csproj.CoreCompileInputs.cache
+E:\MinecraftLauncher.Core\MinecraftLauncher.Core\MinecraftLauncher.Core.Standard\obj\Debug\MinecraftLauncher.Core.Standard.csproj.CopyComplete
+E:\MinecraftLauncher.Core\MinecraftLauncher.Core\MinecraftLauncher.Core.Standard\obj\Debug\MinecraftLauncher.Core.Standard.dll
+E:\MinecraftLauncher.Core\MinecraftLauncher.Core\MinecraftLauncher.Core.Standard\obj\Debug\MinecraftLauncher.Core.Standard.pdb

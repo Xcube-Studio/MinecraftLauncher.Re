@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2D11A44-9310-4445-A4CC-DC6B2D3E01C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MinecraftLauncher.Core.Standard</RootNamespace>
+    <AssemblyName>MinecraftLauncher.Core.Standard</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\AuthenticateType.cs" />
+    <Compile Include="Enums\SkinState.cs" />
+    <Compile Include="Enums\SkinVariant.cs" />
+    <Compile Include="Enums\XErrType.cs" />
+    <Compile Include="Events\ProcessOutputDateReceivedEventArgs.cs" />
+    <Compile Include="Events\ProcessStartedEventArgs.cs" />
+    <Compile Include="IArgsGenerator.cs" />
+    <Compile Include="Items\AuthenticationData.cs" />
+    <Compile Include="Enums\LaunchState.cs" />
+    <Compile Include="Enums\MinecraftEntityType.cs" />
+    <Compile Include="Enums\ProcessOutputDateType.cs" />
+    <Compile Include="Enums\UserType.cs" />
+    <Compile Include="Events\LaunchFaildEventArgs.cs" />
+    <Compile Include="Events\LaunchDelegates.cs" />
+    <Compile Include="Events\LaunchEventArgs.cs" />
+    <Compile Include="Events\ProcessCrashedEventArgs.cs" />
+    <Compile Include="Events\ProcessExitedEventArgs.cs" />
+    <Compile Include="IAuthenticator.cs" />
+    <Compile Include="IMinecraftLauncher.cs" />
+    <Compile Include="Items\MinecraftAsset.cs" />
+    <Compile Include="Items\MinecraftEntity.cs" />
+    <Compile Include="Items\MinecraftLibrary.cs" />
+    <Compile Include="Items\ProfileData.cs" />
+    <Compile Include="Items\SkinData.cs" />
+    <Compile Include="Items\Uuid.cs" />
+    <Compile Include="Items\MinecraftData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\Local\LaunchConfiguration.cs" />
+    <Compile Include="Service\Local\MinecraftDataLoader.cs" />
+    <Compile Include="Service\Local\MinecraftLocator.cs" />
+    <Compile Include="Service\Local\NativesManager.cs" />
+    <Compile Include="Service\Local\SystemConfiguration.cs" />
+    <Compile Include="Service\Network\Http.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

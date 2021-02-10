@@ -1,0 +1,7 @@
+{
+  "GameFolder": "E:\\.minecraft",
+  "JavaPath": "C:\\Program Files\\Java\\jre1.8.0_261\\bin\\javaw.exe",
+  "MaxMemory": 1024,
+  "Version": "1.16.5",
+  "FrontArgs":"-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow"
+}
